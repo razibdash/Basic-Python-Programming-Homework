@@ -1,7 +1,5 @@
 # 1.Create a list of 5 different fruits and print the second item from the list.
 
-# 3.Write a program that finds the largest and smallest number from a list of integers.
-
 fruits=['apple','banana','mango','orange','pinaple']
 
 print(fruits[1])
@@ -10,3 +8,11 @@ print(fruits[1])
 
 tuple_fruits=tuple(fruits)
 print("Fruits tuple:", tuple_fruits)
+
+
+# 3.Write a program that finds the largest and smallest number from a list of integers.
+
+myNum=[9,2,4,6,7,3,10]
+
+print(max(myNum))
+print(min(myNum))
